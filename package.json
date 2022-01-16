@@ -23,9 +23,9 @@
   "author": "baoyi.cui@klook.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/50458012/v-sticky-intersection-observer/issues"
+    "url": "https://github.com/50458012/vue-sticky-directive-io/issues"
   },
-  "homepage": "https://github.com/50458012/v-sticky-intersection-observer#readme",
+  "homepage": "https://github.com/50458012/vue-sticky-directive-io#readme",
   "devDependencies": {
     "rollup": "^2.63.0",
     "rollup-plugin-typescript2": "^0.31.1",
