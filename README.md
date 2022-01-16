@@ -31,7 +31,7 @@ new Vue({
 
 ## Html getAttribute选项
 
--   `sticky-offset` *(string)* - 设置偏移值, 可以是组件内部data的key, 可也以是string描述的对象 例如 `{top: 10, bottom: 20}` 
+-   `sticky-offset` *(string)* - 设置偏移值, 可以是组件内部data中配置对象的key。也可以是string描述的键值对配置对象 例如 sticky-offset="{top: 10, bottom: 20}" 。注意因为不是vue框架解析这些参数，所以不要加v-bind 或者冒号。
 
     -   `top` *(number)* - 默认0
 
