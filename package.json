@@ -4,7 +4,7 @@
   "description": "a vue directive use The IntersectionObserver simulate position sticky.",
   "main": "index.js",
   "typings": "./index.ts",
-  "includes": ["index.js"],
+  "files": ["index.js"],
   "module": "./index.ts",
   "scripts": {
     "build": "rollup --config ./rollup.config.js",
