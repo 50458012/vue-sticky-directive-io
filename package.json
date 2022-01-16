@@ -1,0 +1,35 @@
+{
+  "name": "vue-sticky-directive-io",
+  "version": "1.0.0",
+  "description": "a vue directive use The IntersectionObserver simulate position sticky.",
+  "main": "index.js",
+  "typings": "./index.ts",
+  "includes": ["index.js"],
+  "module": "./index.ts",
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/50458012/v-sticky-intersection-observer.git"
+  },
+  "keywords": [
+    "sticky",
+    "IntersectionObser",
+    "vue",
+    "directive"
+  ],
+  "author": "baoyi.cui@klook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/50458012/v-sticky-intersection-observer/issues"
+  },
+  "homepage": "https://github.com/50458012/v-sticky-intersection-observer#readme",
+  "devDependencies": {
+    "rollup": "^2.63.0",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.4",
+    "vue": "^2.6.14"
+  }
+}
