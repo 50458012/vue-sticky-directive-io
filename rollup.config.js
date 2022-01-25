@@ -15,16 +15,17 @@ export default {
     * (c) ${new Date().getFullYear()} ${author}
     */`,
     file,
-    format: 'cjs',
+    format: 'esm',
     name,
     sourcemap: false,
     exports: 'named',
+    moduleName: 'VueStickyDirectiveIo'
   },
   plugins: [typescript({
     useTsconfigDeclarationDir: true,
     tsconfigOverride: {
       compilerOptions: {
-        target: 'es2015',
+        // target: 'es2015',
       }
     },
     abortOnError: false
